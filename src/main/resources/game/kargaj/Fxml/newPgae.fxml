@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.kargaj.NewPageController">
+   <children>
+      <Label fx:id="label" contentDisplay="CENTER" layoutX="289.0" layoutY="169.0" prefHeight="62.0" prefWidth="114.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="pause" layoutX="152.0" layoutY="240.0" mnemonicParsing="false" text="pause" />
+      <Button fx:id="play" layoutX="377.0" layoutY="240.0" mnemonicParsing="false" text="play" />
+      <Label fx:id="labelPlay" layoutX="246.0" layoutY="57.0" prefHeight="40.0" prefWidth="149.0" text="Play">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
