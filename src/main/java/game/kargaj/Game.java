@@ -84,7 +84,7 @@ public class Game {
         pauseButton.setTranslateY(50);
         pane.getChildren().add(pauseButton);
         scene.setOnKeyPressed(e -> keyPress(e.getCode()));
-//        pauseButton.setOnAction(e -> handleButtonClick());
+        pauseButton.setOnAction(e -> handleButtonClick());
 //        scene.setOnMouseMoved(e -> handleMouseMove(e.getX(), e.getY()));
     }
 
